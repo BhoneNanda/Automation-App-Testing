@@ -48,7 +48,7 @@ public class transfer_money {
         el8.sendKeys("100000");
         MobileElement el9 = ad.findElementByXPath("//android.view.View[@content-desc=\"Transfer\"]/android.view.View[3]/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText[3]");
         el9.click();
-        el9.sendKeys("Nay Kg Lrr....Hee Hee Hee!");
+        el9.sendKeys("Testing....Hee Hee Hee!");
         MobileElement el10 = ad.findElementByAccessibilityId("Next");
         el10.click();
         MobileElement el11 = ad.findElementByAccessibilityId("Next");
